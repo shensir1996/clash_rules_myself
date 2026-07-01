@@ -1,7 +1,7 @@
 # 我的自定义代理列表
 #关键词匹配
 DOMAIN-KEYWORD,hacg
-
+DOMAIN-KEYWORD,hlib
 #模糊匹配
 #DOMAIN-SUFFIX,playzip.com
 #DOMAIN-SUFFIX,hacg.me
