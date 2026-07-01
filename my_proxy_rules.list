@@ -1,12 +1,12 @@
 # 我的自定义代理列表
 #模糊匹配
 DOMAIN-SUFFIX,playzip.com
-DOMAIN-SUFFIX,hacg.me
+#DOMAIN-SUFFIX,hacg.me
 
 #精确匹配
 
 #关键词匹配
-#DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,hacg
 
 
 #ip匹配
