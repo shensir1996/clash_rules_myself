@@ -1,5 +1,5 @@
 # 我的自定义代理列表
-#关键词匹配
+#黑名单漏网之鱼
 DOMAIN-KEYWORD,hacg
 DOMAIN-KEYWORD,hlib
 DOMAIN-KEYWORD,acgyyg
@@ -21,6 +21,10 @@ DOMAIN-SUFFIX,browndust2.com
 DOMAIN-SUFFIX,pmang.cloud
 DOMAIN-SUFFIX,neowiz.com
 DOMAIN-SUFFIX,towpay.co.kr
+
+
+
+
 #模糊匹配
 #DOMAIN-SUFFIX,
 #DOMAIN-SUFFIX,
