@@ -16,14 +16,15 @@ DOMAIN-KEYWORD,acgyyg
 #DOMAIN-KEYWORD,
 #DOMAIN-KEYWORD,
 #DOMAIN-KEYWORD,
+
 #棕色尘埃2规则
 DOMAIN-SUFFIX,browndust2.com
 DOMAIN-SUFFIX,pmang.cloud
 DOMAIN-SUFFIX,neowiz.com
 DOMAIN-SUFFIX,towpay.co.kr
 
-
-
+#边狱巴士下载
+DOMAIN-SUFFIX,downloadfmod.limbuscompanycdn.org
 
 #模糊匹配
 #DOMAIN-SUFFIX,
