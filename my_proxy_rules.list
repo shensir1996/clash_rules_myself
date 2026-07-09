@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,neowiz.com
 DOMAIN-SUFFIX,towpay.co.kr
 
 #边狱巴士下载
-DOMAIN-SUFFIX,downloadfmod.limbuscompanycdn.org
+#DOMAIN-SUFFIX,downloadfmod.limbuscompanycdn.org
 
 #涩涩
 DOMAIN-SUFFIX,av-wiki.net
