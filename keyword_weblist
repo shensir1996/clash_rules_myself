@@ -1,0 +1,13 @@
+#黑名单关键字匹配
+
+#二次元
+DOMAIN-KEYWORD,hacg
+DOMAIN-KEYWORD,acgyyg
+
+
+#H电子书
+DOMAIN-KEYWORD,hlib
+
+#在线播放
+DOMAIN-KEYWORD,123av
+
