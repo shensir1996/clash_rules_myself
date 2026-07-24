@@ -1,0 +1,58 @@
+payload:
+
+  # ============ Steam 静态资源 CDN ============
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steammobile.akamaized.net
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+
+
+  # ============ Akamai CDN ============
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN,steamvideo-a.akamaihd.net
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN,steampipe-kr.akamaized.net
+  - DOMAIN,steampipe-partner.akamaized.net
+
+
+  # ============ Fastly CDN ============
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,fastly.steamstatic.com
+
+
+  # ============ Steam 下载 ============
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+
+
+  # ============ 全球 ISP CDN ============
+  - DOMAIN-SUFFIX,steam.cdn.on.net
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com
+
+
+  # ============ Steam 中国 ============
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,wmsjsteam.com
+  - DOMAIN,csgo.wmsj.cn
+  - DOMAIN,dota2.wmsj.cn
+
+
+  # ============ Steam服务 ============
+  - PROCESS-NAME,steamservice.exe
