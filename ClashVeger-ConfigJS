@@ -214,19 +214,19 @@ const ruleProviders = {
     url: "https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/EA/EA.list",
     path: "./rulesets/loyalsoldier/ea.list",
   },
-  "steam-cn": {
+  "Steam-Direct": {
     ...ruleProviderCommon,
     behavior: "classical",
     format: "text",
-    url: "https://raw.githubusercontent.com/NicoerYa/clash_rules_myself/main/rules/steam-CN.list",
-    path: "./rulesets/loyalsoldier/steam-cn.list",
+    url: "https://raw.githubusercontent.com/NicoerYa/clash_rules_myself/main/rules/Steam-Direct.yaml",
+    path: "./rulesets/loyalsoldier/Steam-Direct.yaml",
   },
-  steam: {
+  "Steam-Proxy": {
     ...ruleProviderCommon,
     behavior: "classical",
-    format: "text",
-    url: "https://raw.githubusercontent.com/NicoerYa/clash_rules_myself/main/rules/Steam.list",
-    path: "./rulesets/loyalsoldier/steam.list",
+    format: "yaml",
+    url: "https://raw.githubusercontent.com/NicoerYa/clash_rules_myself/main/rules/Steam-Proxy.yaml",
+    path: "./rulesets/loyalsoldier/Steam-Proxy.yaml",
   },
   "telegram-site": {
     ...ruleProviderCommon,
@@ -311,8 +311,8 @@ const rules = [
   "RULE-SET,ubisoft,育碧",
   "RULE-SET,epic,Epic",
   "RULE-SET,ea,EA",
-  "RULE-SET,steam-cn,Steam-CN",
-  "RULE-SET,steam,Steam",
+  "RULE-SET,Steam-Direct,Steam直连",
+  "RULE-SET,Steam-Proxy,Steam代理",
   "RULE-SET,geolocation-!cn,节点选择",
   "RULE-SET,cn-site,DIRECT",
   "RULE-SET,cn-ip,DIRECT,no-resolve",
@@ -696,7 +696,7 @@ function main(config) {
     },
     {
       ...groupBaseOption,
-      name: "Steam-CN",
+      name: "Steam直连",
       type: "select",
       proxies: [
         "DIRECT",
@@ -713,7 +713,7 @@ function main(config) {
     },
     {
       ...groupBaseOption,
-      name: "Steam",
+      name: "Steam代理",
       type: "select",
       proxies: [
         "节点选择",
